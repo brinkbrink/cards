@@ -193,6 +193,78 @@ $cards[109] = 'Whiskers on kittens.';
 $cards[110] = 'Bright copper kettles.';
 $cards[111] = 'Warm woolen mittens.';
 $cards[112] = 'Brown paper packages tied up with strings.';
+$cards[113] = 'Hamburgers.';
+$cards[114] = 'Brisket.';
+$cards[115] = 'Vegan at Thanksgiving.';
+$cards[116] = 'Blood relative.';
+$cards[117] = 'Monkey Gram.';
+$cards[118] = 'Little baby Jesus.';
+$cards[119] = 'Ugly wrapping paper.';
+$cards[120] = 'Mistletoe.';
+
+include('includes/header.php');
+?>
+
+<div id="card">
+<?php
+$i = rand(0, 11);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(12, 23);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(24, 35);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(36, 47);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(48, 59);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(60, 71);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(72, 83);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(84, 95);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(96, 107);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(108, 120);
+echo $cards[$i];
+?>
+</div>
 
 include('includes/header.php');
 ?>
