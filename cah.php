@@ -280,13 +280,57 @@ __________.';
 $cards[62] = '
 __________, _________, _________; these are a few of my favorite things!';
 
+$cards[63] = 'We have seen some of our guests ________ like a true ___________!';
+
+$cards[64] = 'My kids are not impressed by my
+__________.';
+
+$cards[65] = 'Joy to the __________.';
+
+$cards[66] = 'You are the __________ to my __________.';
+
+$cards[67] = '______lords.';
+
+$cards[68] = 'Did you bring enough _________ to share with the whole class?';
+
+$cards[69] = 'Have you seen the new Gordon Ramsey show? __________ Nightmares?';
+
+$cards[70] = 'Merry ________ and a happy new _________.';
+
+$cards[71] = 'Go to the __________ District. They have the best __________.';
+
+$cards[72] = 'We wish you a merry __________ and happy new __________.';
+
+$cards[73] = 'Whispering sweet __________.';
+
+$cards[74] = "Uh, don't you know we're supposed to be boycotting _________ right now?";
+
+$cards[75] = 'The __________ union sure has __________ shaking in their boots.';
+
+$cards[76] = 'Pum pum pum pum/ 
+Pa rum pum pum/ 
+Pum pum _____ pum/ 
+Pa rum pum pum/ 
+Pum ______ pum pum/ 
+Pa rum pum pum/ 
+Pum pum ______ pum pa rum/ 
+.';
+
+$cards[77] = 'Silent __________, holy _________.';
+
+$cards[78] = 'Jingle _______ rock.';
+
+$cards[79] = 'I saw _________ kissing Santa Claus.';
+
+$cards[80] = 'Rudolph the red nosed __________.';
+
 include('includes/header.php');
 
 ?>
 
 <div id="white">
 <?php
-$i = rand(0, 60);
+$i = rand(0, 80);
 echo $cards[$i];
 ?>
 </div>
