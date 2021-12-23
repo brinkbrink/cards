@@ -274,9 +274,26 @@ $cards[60] = 'Next on ESPN2:
 The World Series of
 __________.';
  
+$cards[61] = 'Tis the season to be
+__________.';
 
+$cards[62] = '
+__________, _________, _________; these are a few of my favorite things!';
 
+include('includes/header.php');
+
+?>
+
+<div id="white">
+<?php
 $i = rand(0, 60);
 echo $cards[$i];
+?>
+</div>
+<div id="new">
+<a href="cah.php">New cards!</a>
+</div>
 
+<?php
+include('includes/footer.php');
 ?>

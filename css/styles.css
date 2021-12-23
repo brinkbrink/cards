@@ -1,0 +1,114 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body {
+    background-image: url("images/panda.jpg");
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(192, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(15, 88, 0);
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+main {
+    border-radius: 25px;
+    height: 800px;
+    width: 50%;
+    background: #fff;
+    border: 6px dashed red;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+}
+
+
+li {
+    font-size: 1em;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color:rgb(192, 0, 0)
+}
+
+#card {
+    border-radius: 25px;
+    height: 361px;
+    width: 19%;
+    background: #fff;
+    color: #000;
+    border: 6px dashed red;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px;
+    padding: 20px;
+    font-size: 31px;
+}
+
+#white {
+    border-radius: 25px;
+    height: 400px;
+    background: rgb(15, 88, 0);
+    color: #fff;
+    box-sizing: border-box;
+    margin: auto;
+    width: 30%;
+
+    padding: 20px;
+    font-size: 31px;
+}
+
+#new {
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1020px) {
+    main {
+        border-radius: 25px;
+        height: 1500px;
+        width: 100%;
+        background: #fff;
+        border: 6px dashed red;
+        margin: auto;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 10px;
+        font-size: 2em;
+    }
+
+    #card {
+        height: 361px;
+        width: 19%;
+        margin: 4px;
+        padding: 20px;
+        font-size: 26px;
+    }
+    
+    #white {
+        height: 950px;
+        box-sizing: border-box;
+        margin: auto;
+        width: 100%;
+    }
+
+}

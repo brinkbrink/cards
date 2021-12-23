@@ -189,9 +189,72 @@ $cards[109] = 'My ugly face and
 bad personality.';
 $cards[110] = 'A bitch slap.';
 
+include('includes/header.php');
+?>
 
-
-$i = rand(0, 110);
+<div id="card">
+<?php
+$i = rand(0, 10);
 echo $cards[$i];
-
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(11, 20);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(21, 30);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(31, 40);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(41, 50);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(51, 60);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(61, 70);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(71, 80);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(81, 90);
+echo $cards[$i];
+?>
+</div>
+<div id="card">
+<?php
+$i = rand(91, 110);
+echo $cards[$i];
+?>
+</div>
+<div id="new">
+<a href="cah-em.php">New cards!</a>
+</div>
+<?php
+include('includes/footer.php');
 ?>
