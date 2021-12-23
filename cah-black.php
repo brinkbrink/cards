@@ -1,33 +1,32 @@
 <?php
 
-__________
-$cards[0] = 'Hey Reddit! I’m __________.
+$cards[0] = 'Hey Reddit! I am __________.
 Ask me anything.';
 $cards[1] = 'Introducing
 X-treme Baseball!
-It’s like baseball,
+It is like baseball,
 but with __________!';
 $cards[2] = 'Next from J.K.
 Rowling: Harry
 Potter and the
 Chamber of
 __________.';
-$cards[3] = 'That’s right, I killed
+$cards[3] = "That’s right, I killed
 __________.
 How, you ask?
-__________.';
+__________.";
 $cards[4] = 'Dude, do not go
 in that bathroom.
 There’s __________
 in there.';
 echo '<br>';
-$cards[5] = '__________. Betcha can’t have
-just one!';
+$cards[5] = "__________. Betcha can't have
+just one!";
 echo '<br>';
-$cards[6] = 'Kids, I don’t need
+$cards[6] = "Kids, I don't need
 drugs to get high.
-I’m high on
-__________.';
+I'm high on
+__________.";
 echo '<br>';
 $cards[7] = 'In the new Disney
 Channel Original
@@ -36,32 +35,32 @@ Montana struggles
 with __________
 for the first time.';
 echo '<br>';
-$cards[8] = 'What’s my
+$cards[8] = 'What is my
 secret power?';
 echo '<br>';
-$cards[9] = 'What is Batman’s
-guilty pleasure?';
+$cards[9] = "What is Batman's
+guilty pleasure?";
 echo '<br>';
 $cards[10] = 'TSA guidelines now
 prohibit __________
 on airplanes.';
 echo '<br>';
-$cards[11] = 'I’m sorry,
+$cards[11] = "I'm sorry,
 Professor, but I
-couldn’t complete
+couldn't complete
 my homework
 because of
-__________.';
+__________.";
 echo '<br>';
 $cards[12] = 'And the Academy
 Award for __________
 goes to
 __________.';
 echo '<br>';
-$cards[13] = 'It’s a pity that kids
+$cards[13] = "It's a pity that kids
 these days are all
 getting involved
-with __________.';
+with __________.";
 echo '<br>';
 $cards[14] = 'Step 1: __________.
 Step 2: __________.
@@ -248,7 +247,7 @@ but I'm pretty
 sure what you're
 suffering from
 is called
-'__________'.;
+'__________'.";
 echo '<br>';
 $cards[55] = 'Lifetime® presents
 “ :
