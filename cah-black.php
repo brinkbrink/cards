@@ -71,7 +71,7 @@ will pull __________
 out of __________.';
  
 $cards[16] = '?
-I’m going on a
+I am going on a
 cleanse this week.
 Nothing but kale
 juice and __________.';
@@ -273,10 +273,133 @@ __________.';
 $cards[60] = 'Next on ESPN2:
 The World Series of
 __________.';
- 
+
+$cards[61] = 'When I am a
+billionaire, I
+shall erect a
+50-foot statue to
+commemorate
+__________.';
+$cards[62] = 'After four platinum
+albums and three
+Grammys, it is time to
+get back to my roots,
+to what inspired me to
+make music in the first
+place: __________.';
+$cards[63] = '__________: kid-tested,
+mother-approved.';
+$cards[64] = "Why can't I
+sleep at night?";
+$cards[65] = 'This is the way the
+world ends... 
+This is the way the
+world ends... 
+Not with a bang but
+with __________.';
+$cards[66] = 'Coming to
+Broadway
+this season,
+__________:
+The Musical.';
+$cards[67] = 'A recent laboratory
+study shows that
+undergraduates
+have 50% less
+sex after being
+exposed to
+__________.';
+$cards[68] = 'Introducing
+the amazing
+superhero/sidekick
+duo! It is __________
+ and __________
+!';
+$cards[69] = 'Military historians
+remember Alexander
+the Great for his brilliant
+use of __________
+against the Persians.';
+$cards[70] = 'War! What is
+it good for?';
+$cards[71] = 'What gives me
+uncontrollable gas?';
+$cards[72] = 'The new Chevy
+Tahoe. With the
+power and space to
+take __________
+everywhere you go.';
+$cards[73] = 'Well if you will excuse
+me, gentlemen, I
+have a date with
+__________.';
+$cards[74] = 'Alternative
+medicine is now
+embracing the
+curative powers of
+__________.';
+$cards[75] = 'As the mom of five
+rambunctious boys,
+I am no stranger to
+__________.';
+$cards[76] = '__________. High five, bro.';
+$cards[77] = 'Today on Maury:
+“Help! My son is
+__________!”';
+$cards[78] = 'I get by with a
+little help from
+__________.';
+$cards[79] = '★✩✩✩✩ Do NOT
+go here! Found __________
+in my fettuccine
+alfredo!';
+$cards[80] = 'I drink to forget
+__________.';
+$cards[81] = "I'm LeBron James,
+and when I'm not
+slamming dunks, I
+love __________.";
+$cards[82] = 'What makes life
+worth living?';
+$cards[83] = "Arby's: We Have
+.";
+$cards[84] = "Mr. and Mrs. Diaz, we
+called you in because
+we're concerned about
+Cynthia. Are you aware
+that your daughter is
+?";
+$cards[85] = "If you can't be with
+the one you love,
+love ";
+$cards[86] = 'Brought to you by
+Bud Light®, the
+Official Beer of ';
+$cards[87] = 'Click Here for
+!!!';
+$cards[88] = 'Check me out,
+yo! I call this
+dance move
+“ .”';
+$cards[89] = 'Old MacDonald had
+.
+E-I-E-I-O';
+$cards[90] = "Men's Wearhouse:
+You're gonna like
+.
+I guarantee it";
+$cards[91] = 'Run run ________.';
+$cards[92] = "He's the little Saint __________.";
+$cards[93] = 'Merry _______.';
+$cards[94] = 'Deck the ________ with ________ of ________.';
+$cards[95] = 'All I want for Christmas is __________.';
+$cards[96] = "Tigre won't stop eating _________.";
+$cards[97] = 'Panda loves to cuddle _________.';
+$cards[98] = 'hey';
+$cards[99] = 'hey';
 
 
-$i = rand(0, 60);
-echo '<h2>'$cards[$i]'</h2>';
+$i = rand(0, 99);
+echo $cards[$i];
 
 ?>
