@@ -11,14 +11,14 @@ Rowling: Harry
 Potter and the
 Chamber of
 __________.';
-$cards[3] = "That’s right, I killed
+$cards[3] = "That's right, I killed
 __________.
 How, you ask?
 __________.";
-$cards[4] = 'Dude, do not go
+$cards[4] = "Dude, do not go
 in that bathroom.
-There’s __________
-in there.';
+There's __________
+in there.";
 echo '<br>';
 $cards[5] = "__________. Betcha can't have
 just one!";
