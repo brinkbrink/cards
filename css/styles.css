@@ -79,7 +79,11 @@ a {
 
 #new {
     text-align: center;
-    padding: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    background: rgb(192,0,0);
+    color: #fff;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1020px) {
