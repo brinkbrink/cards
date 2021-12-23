@@ -291,7 +291,7 @@ echo $cards[$i];
 ?>
 </div>
 <div id="new">
-<a href="cah.php">New cards!</a>
+<a href="cah.php">New card!</a>
 </div>
 
 <?php
