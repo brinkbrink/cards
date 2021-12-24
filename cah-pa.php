@@ -201,6 +201,7 @@ $cards[117] = 'Monkey Gram.';
 $cards[118] = 'Little baby Jesus.';
 $cards[119] = 'Ugly wrapping paper.';
 $cards[120] = 'Mistletoe.';
+$cards[121] = 'WILD CARD!! <img alt="panda the cat" src="images/panda.jpg">';
 
 include('includes/header.php');
 ?>
@@ -261,7 +262,7 @@ echo $cards[$i];
 </div>
 <div id="card">
 <?php
-$i = rand(108, 120);
+$i = rand(108, 121);
 echo $cards[$i];
 ?>
 </div>
